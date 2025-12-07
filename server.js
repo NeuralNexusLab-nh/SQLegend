@@ -83,7 +83,7 @@ const HTML_DOCS = `
 <div class="container">
     <header>
         <h1>SQL<span>egend</span></h1>
-        <div class="subtitle">The Idiot-Proof, Serverless SQLite Database over HTTP</div>
+        <div class="subtitle">The Best Easy & Free SQL Server.</div>
     </header>
 
     <!-- STEP 0: Introduction -->
