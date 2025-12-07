@@ -36,7 +36,7 @@ const HTML_DOCS = `
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SQLegend | The Lazy SQL Database</title>
+    <title>SQLegend | The Best SQL Database</title>
     <style>
         :root { --bg: #0f0f12; --card: #1b1b1f; --border: #2d2d33; --text: #e0e0e0; --accent: #00e599; --accent-hover: #00c482; --code-bg: #101010; --muted: #888; }
         body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
@@ -121,9 +121,9 @@ const HTML_DOCS = `
             <pre id="consoleOutput">Waiting for command...</pre>
         </div>
         <p style="margin-top:10px;">
-            <small>👉 Try: <code>CREATE TABLE fish (name TEXT, weight INT);</code></small><br>
-            <small>👉 Try: <code>INSERT INTO fish VALUES ('Salmon', 10);</code></small><br>
-            <small>👉 Try: <code>SELECT * FROM fish;</code></small>
+            <small>👉 Try: <code>CREATE TABLE users (name TEXT, weight INT);</code></small><br>
+            <small>👉 Try: <code>INSERT INTO users VALUES ('John', 10);</code></small><br>
+            <small>👉 Try: <code>SELECT * FROM users;</code></small>
         </p>
     </div>
 
@@ -170,8 +170,7 @@ print(run_sql("SELECT 1 + 1 as result"))
     </div>
 
     <footer style="text-align: center; margin-top: 80px; opacity: 0.4;">
-        Powered by <strong>SQLegend</strong> & better-sqlite3. <br>
-        Remember: With great laziness comes great responsibility.
+        Powered by <strong>SQLegend</strong> & better-sqlite3.
     </footer>
 </div>
 
