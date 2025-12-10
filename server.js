@@ -320,6 +320,10 @@ app.post('/api', (req, res) => {
     }
 });
 
+app.all("*", (req, res) => {
+    res.redirect("https://sqlegend.nethacker.cloud");
+});
+
 // ==========================================
 // START SERVER
 // ==========================================
